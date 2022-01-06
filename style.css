@@ -7,9 +7,9 @@ body{
     width: 1170px;
     margin: 0 auto;
     display: flex;
-    padding: 80px;
-    
+    padding: 80px; 
 }
+
 /* hero area start */
 .left-hero{
     width: 50%;
@@ -26,12 +26,13 @@ body{
     color: aqua;
 }
 .left-hero p{
+    text-transform: capitalize;
     font-size: 18px;
     color: #222;
     line-height: 28px;
     margin-bottom: 20px;
 }
-.left-hero a{
+.left-hero .button{
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -40,9 +41,7 @@ body{
     background: aqua;
     padding: 15px 60px;
     margin-bottom: 40px;
-
 }
-
 .right-hero{
     width: 50%;
 }
@@ -50,7 +49,7 @@ body{
     width: 70%;
     padding: 40px;
 }
-/* hero area start */
+/* hero area end */
 
  /* my mission area start */
 .my-mission-area h1{
@@ -61,8 +60,8 @@ body{
     color:aqua;
     font-weight: 700;
 }
-
 .mission{
+    text-transform: capitalize;
     background: #DEF4F6;
     border-radius: 30px;
     padding: 40px 30px;
@@ -76,7 +75,6 @@ body{
 .mission img{
     width: 140px;
     height: 140px;
-
 }
 .mission h2 {
     font-size: 26px;
@@ -88,4 +86,106 @@ body{
     line-height: 24px;
     font-weight: 400px;
 }
- /* my mission area start */
+ /* my mission area end */
+
+ /* develop area start */
+ .develop-left img{
+     width: 400px;
+     height: 400px;
+ }
+ .develop-right{
+     padding: 40px;
+ }
+ .develop-right h2{
+     font-family: "Poppins";
+     font-size: 38px;
+     font-weight: 700;
+     line-height: 50px;
+     color: #333;
+     margin-bottom: 30px;
+ }
+ .develop-right a{
+        display: inline-block;
+         text-decoration: none;
+         color: #fff;
+         font-size: 18px;
+         font-weight: 700;
+         background: aqua;
+         padding: 15px 60px;
+         margin-top: 40px;
+ }
+/* develop area start */
+
+ /* counter area start */
+ .counter-area{
+     padding: 0px 0;
+     background: aqua;
+     text-align: center;
+     font-family: "yeseva One";
+ }
+ .count h4{
+     color:#fff;
+     font-size: 70px;
+     font-weight: 700;
+ }
+ .count{
+     padding: 30px;
+ }
+ .counter{
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .count p{
+     color: #fff;
+     font-size: 22px;
+     text-transform: uppercase;
+ }
+ /* counter area end */
+
+ /* team area start */
+.team-area{
+    padding-top:80px;
+
+}
+.team-area h2{
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.team-area span{
+    color: aqua;
+}
+ .single-team{
+     margin: 0 8px;
+     text-align: center;
+     text-transform: uppercase;
+ }
+ .single-team img{
+     border-radius: 30px;
+     margin-bottom: 20px;
+ }
+ .single-team h3{
+     font-size: 25px;
+     color: #222;
+     letter-spacing: 3px;
+ }
+ /* team area end */
+
+ /* footer area start */
+.footer-area{
+    text-align: center;
+    background: #333;
+    padding: 70px 0;
+}
+.footer-area h2{
+    font-size: 40px;
+    color: #fff;
+}
+.footer-area h2 span{
+    font-size: 40px;
+    color: aqua;
+}
+.footer-area p{
+    color: #FFEEEE;
+}
+ /* footer area end */
